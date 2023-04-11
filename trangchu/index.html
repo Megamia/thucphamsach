@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Thực phẩm sạch nhanh</title>
+        <!-- Reset CSS -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./assets/fonts/stylesheet.css">
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <script src="./main.js"></script>
+    </head>
+    <body>
+        <header class="header ">
+            <div class="content">
+                <div class="body">
+                        <a href="#!"  class="logo" ><img src="./assets/img/logo.png" alt=""/><a >
+                        <nav class="nav">
+                            <ul>
+                                <li>
+                                    <a href="#!" title="Trang chủ">Trang chủ</a>
+                                </li>
+                                <li>
+                                    
+                                    <a href="#!" title="Sản phẩm">Sản phẩm 
+                                        <i class="fa-solid fa-caret-down icon"></i>
+                                    </a>
+                                    <ul class="sub-nav">
+                                        <li>
+                                            <a href="#!">Rau Củ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">Hoa quả tươi</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">Thực phẩm tươi sống</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">Ngũ cốc</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#!" title="Tin tức">Tin tức</a>
+                                </li>
+                                <li>
+                                    <a href="#!" title="Liên hệ">Liên hệ</a>
+                                </li>
+                                <li>
+                                    <a href="#!" title="Sale Up To 50%">Sale Up To 50%</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="action">
+                            <div class="icon">
+                                <a href="#!" class="link">
+                                    <i class="fa-solid fa-bag-shopping ">
+                                        <span class="quantity">0</span>
+                                    </i>
+                                </a>
+                                <div class="minicart">
+                                    <p class="text">Giỏ hàng không có sản phẩm !</p>
+                                </div>
+                            </div>                          
+                            <div class="icon">
+                                 <a href="#!" class="link">
+                                    <i class="fa-solid fa-user-plus "></i>
+                                 </a>
+                                 <div class="group-btn">
+                                    <a href="#!" class="btn sign-in" >Đăng nhập</a>
+                                    <a href="#!" class="btn sign-up">Đăng ký</a>
+                                </div>
+                            </div>
+                            <div class="icon">
+                                 <a href="#!" class="link">
+                                    <i class="fa-solid fa-magnifying-glass "></i>
+                                 </a>
+                                 <div class="search">
+                                    <form action="/search" method="get" class="group-form">
+                                        <input type="text" placeholder="Tìm kiếm..." name="" id="" class="form-control">
+                                        <button type="submit" class="btn-search">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </button>
+                                    </form>
+                                 </div>
+                            </div>
+                        </div>
+                </div>
+            </div >
+        </header>
+        <main>
+            <div class="banner">
+                <a href="#!">
+                    <img id="image" onclick="changeImage()" src="./assets/img/Banner1.png" id="slideshow" alt="Banner1" class="banner-img" title="Banner 1">
+                </a>
+            </div>
+            <div class="list-fruit">
+                    <div class="item nth-1" style="background-image: url(/assets/img/food1.png);">
+                        <div class="wrap-info">
+                            <div class="info">
+                                <h3 class="title">Rau củ xanh</h3>
+                                <p class="desc">Chúng tôi cam kết 100% các sản phẩm có nguồn gốc xuất xứ rõ ràng, sạch, an toàn và đảm bảo chất lượng ngon nhất giao đến tận tay người tiêu dùng, để san sẻ sự vất vả của các mẹ, các chị</p>
+                                <a href="" class="btn">Xem ngay</a>
+                            </div>
+                        </div>                   
+                    </div>
+                    <div class="item nth-2"  style="background-image: url(/assets/img/food2.png);">
+                        <div class="wrap-info">
+                            <div class="info">
+                                <h3 class="title">Dinh dưỡng mỗi ngày</h3>
+                                <p class="desc">Chúng tôi cam kết 100% các sản phẩm có nguồn gốc xuất xứ rõ ràng, sạch, an toàn và đảm bảo chất lượng ngon nhất giao đến tận tay người tiêu dùng, để san sẻ sự vất vả của các mẹ, các chị</p>
+                                <a href="" class="btn">Xem ngay</a>
+                            </div>
+                        </div>                   
+                    </div>
+                    <div class="item nth-3"  style="background-image: url(/assets/img/food3.png);">
+                        <div class="wrap-info">
+                            <div class="info">
+                                <h3 class="title">Thực phẩm tươi</h3>
+                                <p class="desc">Chúng tôi cam kết 100% các sản phẩm có nguồn gốc xuất xứ rõ ràng, sạch, an toàn và đảm bảo chất lượng ngon nhất giao đến tận tay người tiêu dùng, để san sẻ sự vất vả của các mẹ, các chị</p>
+                                <a href="" class="btn">Xem ngay</a>
+                            </div>
+                        </div>                   
+                    </div>
+                    <div class="item nth-4"  style="background-image: url(/assets/img/food4.png);">
+                        <div class="wrap-info">
+                            <div class="info">
+                                <h3 class="title">Hoa quả sạch</h3>
+                                <p class="desc">Chúng tôi cam kết 100% các sản phẩm có nguồn gốc xuất xứ rõ ràng, sạch, an toàn và đảm bảo chất lượng ngon nhất giao đến tận tay người tiêu dùng, để san sẻ sự vất vả của các mẹ, các chị</p>
+                                <a href="" class="btn">Xem ngay</a>
+                            </div>
+                        </div>                   
+                    </div>
+            </div>
+            <div class="section-about">
+                <div class="content">
+                    <div class="heading">
+                        <h2 class="title">
+                            <span class="text-gradient">Về chúng tôi</span>
+                        </h2>
+                        <p class="desc">Hiện tại vùng nguyên liệu của chúng tôi có thể cung cấp các thực tập tươi sạch với số lượng lớn vì đang vào vụ mùa thu hoạch nên chúng tôi có thể cung ứng cho tất cả các đối tác xuất khẩu nông sản trên cả nước</p>
+                    </div>
+                    <div class="section-list">
+                        <div class="item">
+                            <img src="./assets/img/intro1.png" alt="" class="thumb">
+                            <div class="body">
+                                <h3 class="title">Trang trại hữu cơ</h3>
+                                <p class="desc">Cung cấp 100% thực phẩm sạch đảm bảo an toàn và ngon nhất</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="./assets/img/intro2.png" alt="" class="thumb">
+                            <div class="body">
+                                <h3 class="title">Thực phẩm sạch</h3>
+                                <p class="desc">Cung cấp 100% thực phẩm sạch đảm bảo an toàn và ngon nhất</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="./assets/img/intro3.png" alt="" class="thumb">
+                            <div class="body">
+                                <h3 class="title">An toàn sinh học</h3>
+                                <p class="desc">Cung cấp 100% thực phẩm sạch đảm bảo an toàn và ngon nhất</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="./assets/img/intro4.png" alt="" class="thumb">
+                            <div class="body">
+                                <h3 class="title">Đa dạng sinh học</h3>
+                                <p class="desc">Cung cấp 100% thực phẩm sạch đảm bảo an toàn và ngon nhất</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top-sell">
+                <div class="content">
+                    <div class="heading">
+                        <div class="title"><span class="text-gradient">SẢN PHẨM BÁN CHẠY</span></div>
+                    </div>
+                    <div class="list-product">
+                        <div class="product">
+                            <a href="#!" class="thumb"><img src="./assets/img/product01.jpg" alt="" class="image"></a>
+                            <div class="info">
+                                <div class="name"><a href="#!" >Ba rọi heo rút sườn C.P</a></div >
+                                <div class="value">119,000₫</div>
+                            </div>
+                            <div class="group-action">
+                                <a href="#!" class="link"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#!" class="link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#!" class="thumb"><img src="./assets/img/product02.jpg" alt="" class="image"></a>
+                            <div class="info">
+                                <div class="name"><a href="#!" >Yến mạch ăn liền Quaker hộp 600g</a></div >
+                                <div class="value">115,000₫</div>
+                            </div>
+                            <div class="group-action">
+                                <a href="#!" class="link"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#!" class="link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#!" class="thumb"><img src="./assets/img/product03.jpg" alt="" class="image"></a>
+                            <div class="info">
+                                <div class="name"><a href="#!" >Ngũ cốc trái cây Calbee gói 700g</a></div >
+                                <div class="value">280,000₫</div>
+                            </div>
+                            <div class="group-action">
+                                <a href="#!" class="link"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#!" class="link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#!" class="thumb"><img src="./assets/img/product04.jpg" alt="" class="image"></a>
+                            <div class="info">
+                                <div class="name"><a href="#!" >Bánh ngũ cốc Simba Choco Chips</a></div >
+                                <div class="value">25,000₫</div>
+                            </div>
+                            <div class="group-action">
+                                <a href="#!" class="link"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#!" class="link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-catetory">
+                <div class="content">
+                    <div class="heading">
+                        <div class="title"><span class="text-gradient">SẢN PHẨM BÁN CHẠY</span></div>
+                        <a href="#!" class="product-btn">Sản phẩm</a>
+                    </div>
+                    <div class="list-product">
+                        <div class="product">
+                            <a href="#!" class="thumb"><img src="./assets/img/product01.jpg" alt="" class="image"></a>
+                            <div class="info">
+                                <div class="name"><a href="#!" >Ba rọi heo rút sườn C.P</a></div >
+                                <div class="value">119,000₫</div>
+                            </div>
+                            <div class="group-action">
+                                <a href="#!" class="link"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#!" class="link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#!" class="thumb"><img src="./assets/img/product05.jpg" alt="" class="image"></a>
+                            <div class="info">
+                                <div class="name"><a href="#!" >Nạm bò Úc tươi Trung Đồng hút chân không</a></div >
+                                <div class="value">84,000₫</div>
+                            </div>
+                            <div class="group-action">
+                                <a href="#!" class="link"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#!" class="link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#!" class="thumb"><img src="./assets/img/product06.jpg" alt="" class="image"></a>
+                            <div class="info">
+                                <div class="name"><a href="#!" >Vai bò Úc tươi Trung Đồng hút chân không</a></div >
+                                <div class="value">120,000₫</div>
+                            </div>
+                            <div class="group-action">
+                                <a href="#!" class="link"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#!" class="link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#!" class="thumb"><img src="./assets/img/product07.jpg" alt="" class="image"></a>
+                            <div class="info">
+                                <div class="name"><a href="#!" >4/8 Hạt yến mạch cán mỏng Just Oats nguyên chất ăn liền gói</a></div >
+                                <div class="value">103,000₫</div>
+                            </div>
+                            <div class="group-action">
+                                <a href="#!" class="link"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#!" class="link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hotline-banner" style="background-image: url(/assets/img/background.jpg);">
+                <div class="content">
+                    <div class="info">
+                        <h2 class="title">Hotline</h2>
+                        <a href="tel:1900.2812" class="number">1900.2812</a>
+                        <p class="desc">Chúng tôi cam kết 100% các sản phẩm có nguồn gốc xuất xứ rõ ràng, sạch, an toàn và đảm bảo chất lượng ngon nhất.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="news">
+                <div class="content">
+                    <div class="heading">
+                        <div class="title"><span class="text-gradient">TIN TỨC MỚI NHẤT</span></div>
+                    </div>
+                    <div class="list-item">
+                        <div class="item">
+                            <div class="card">
+                                <a href="#!" class="thumb"><img src="./assets/img/blog01.jpg" alt=""></a>
+                                <div class="source">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <b>25-03-2022</b> <span> Đăng bởi </span> <b>Admin</b>
+                                </div>
+                            </div >
+                            <div class="info">
+                                <div class="body">
+                                    <a href="#!" class="head">Không phải sữa, những thực phẩm này còn giàu Canxi hơn!</a>
+                                    <p class="desc">Nếu bạn đã ngao ngán đến việc uống sữa mỗi ngày, thì những thực phẩm như cá hồi, hạt hạnh nhân, các loại đậu,… sẽ giúp bạn bổ sung Canxi đầy đủ.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <a href="#!" class="thumb"><img src="./assets/img/blog02.jpg" alt=""></a>
+                                <div class="source">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <b>25-03-2022</b> <span> Đăng bởi </span> <b>Admin</b>
+                                </div>
+                            </div >
+                            <div class="info">
+                                <div class="body">
+                                    <a href="#!" class="head">Không phải sữa, những thực phẩm này còn giàu Canxi hơn!</a>
+                                    <p class="desc">Nếu bạn đã ngao ngán đến việc uống sữa mỗi ngày, thì những thực phẩm như cá hồi, hạt hạnh nhân, các loại đậu,… sẽ giúp bạn bổ sung Canxi đầy đủ.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <a href="#!" class="thumb"><img src="./assets/img/blog03.jpg" alt=""></a>
+                                <div class="source">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <b>25-03-2022</b> <span> Đăng bởi </span> <b>Admin</b>
+                                </div>
+                            </div >
+                            <div class="info">
+                                <div class="body">
+                                    <a href="#!" class="head">Không phải sữa, những thực phẩm này còn giàu Canxi hơn!</a>
+                                    <p class="desc">Nếu bạn đã ngao ngán đến việc uống sữa mỗi ngày, thì những thực phẩm như cá hồi, hạt hạnh nhân, các loại đậu,… sẽ giúp bạn bổ sung Canxi đầy đủ.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top-brands">
+                <div class="content">
+                    <div class="heading">
+                        <div class="title"><span class="text-gradient">TOP THƯƠNG HIỆU</span></div>
+                    </div>
+                    <div class="list-brands">
+                        <a href="#!" class="brand"><img src="./assets/img/brand01.png" alt=""></a>
+                        <a href="#!" class="brand"><img src="./assets/img/brand02.png" alt=""></a>
+                        <a href="#!" class="brand"><img src="./assets/img/brand03.png" alt=""></a>
+                        <a href="#!" class="brand"><img src="./assets/img/brand04.png" alt=""></a>
+                        <a href="#!" class="brand"><img src="./assets/img/brand05.png" alt=""></a>
+                        <a href="#!" class="brand"><img src="./assets/img/brand01.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="row-top">
+                <div class="content">
+                    <div class="head">
+                        <h2 class="title">Đăng kí nhận tin khuyến mãi</h2>
+                        <div class="input-group">
+                            <input type="email" placeholder="Nhập email của bạn" class="control" required>
+                              <div class="input"><button class="btn-sign-up">Đăng ký</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="row-middle">
+                    <div class="col">
+                        <img src="./assets/img/logo.png" alt="" class="logo">
+                        <div class="info">
+                            <div class="wrap-info">
+                                <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <p class="desc">30 Phạm Văn Đồng Cầu Giấy, Hà Nội</p>
+                            </div>
+                            <div class="wrap-info">
+                                <div class="icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                                <p class="desc"> 1900.2812</p>
+                            </div>
+                            <div class="wrap-info">
+                                <div class="icon"><i class="fa-regular fa-envelope"></i></div>
+                                <p class="desc">abctheme205@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h2 class="title">CẨM NANG SỬ DỤNG</h2>
+                        <ul class="list">
+                            <li><a href="#!" class="link">Trang chủ</a></li>
+                            <li><a href="#!" class="link">Giới thiệu</a></li>
+                            <li><a href="#!" class="link">Sản phẩm</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h2 class="title">CHÍNH SÁCH</h2>
+                        <ul class="list">
+                            <li><a href="#!" class="link">Trang chủ</a></li>
+                            <li><a href="#!" class="link">Giới thiệu</a></li>
+                            <li><a href="#!" class="link">Sản phẩm</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h2 class="title">DỊCH VỤ</h2>
+                        <ul class="list">
+                            <li><a href="#!" class="link">Trang chủ</a></li>
+                            <li><a href="#!" class="link">Giới thiệu</a></li>
+                            <li><a href="#!" class="link">Sản phẩm</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row-bottom">
+                <div class="text-center">
+                    <span>Thiết kế web bởi </span>
+                    <img src="./assets/img/favicon.ico" alt="" class="favicon">
+                   <a href="#!" class="link">Nhanh.vn</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
