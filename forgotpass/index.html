@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lấy lại mật khẩu</title>
+        <link rel="icon" href="assets/img/logo.png">
+        <!-- Reset CSS -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./assets/fonts/stylesheet.css">
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <script src="./main.js"></script>
+    </head>
+    <body>
+        <header class="header ">
+            <div class="content">
+                <div class="body">
+                        <a href="#!"  class="logo" ><img src="./assets/img/logo.png" alt=""/><a >
+                        <nav class="nav">
+                            <ul>
+                                <li>
+                                    <a href="#!" title="Trang chủ">Trang chủ</a>
+                                </li>
+                                <li>
+                                    
+                                    <a href="#!" title="Sản phẩm">Sản phẩm 
+                                        <i class="fa-solid fa-caret-down icon"></i>
+                                    </a>
+                                    <ul class="sub-nav">
+                                        <li>
+                                            <a href="#!">Rau Củ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">Hoa quả tươi</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">Thực phẩm tươi sống</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">Ngũ cốc</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#!" title="Tin tức">Tin tức</a>
+                                </li>
+                                <li>
+                                    <a href="#!" title="Liên hệ">Liên hệ</a>
+                                </li>
+                                <li>
+                                    <a href="#!" title="Sale Up To 50%">Sale Up To 50%</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="action">
+                            <div class="icon">
+                                <a href="#!" class="link">
+                                    <i class="fa-solid fa-bag-shopping ">
+                                        <span class="quantity">0</span>
+                                    </i>
+                                </a>
+                                <div class="minicart">
+                                    <p class="text">Giỏ hàng không có sản phẩm !</p>
+                                </div>
+                            </div>                          
+                            <div class="icon">
+                                 <a href="#!" class="link">
+                                    <i class="fa-solid fa-user-plus "></i>
+                                 </a>
+                                 <div class="group-btn">
+                                    <a href="http://127.0.0.1:5500/baitap/login/index.html" class="btn sign-in" >Đăng nhập</a>
+                                    <a href="http://127.0.0.1:5500/baitap/signup/index.html" class="btn sign-up">Đăng ký</a>
+                                </div>
+                            </div>
+                            <div class="icon">
+                                 <a href="#!" class="link">
+                                    <i class="fa-solid fa-magnifying-glass "></i>
+                                 </a>
+                                 <div class="search">
+                                    <form action="/search" method="get" class="group-form">
+                                        <input type="text" placeholder="Tìm kiếm..." name="" id="" class="form-control">
+                                        <button type="submit" class="btn-search">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </button>
+                                    </form>
+                                 </div>
+                            </div>
+                        </div>
+                </div>
+            </div >
+        </header>
+        <main>
+            <div class="pageSignin" style="text-align: center;">
+                <h1>LẤY LẠI MẬT KHẨU</h1>
+                <form method="post" id="getcode" name="getcode">
+                    <ul>
+                        <li>
+                            <label for="newpass" class="require">
+                                <span>*</span>
+                                Nhập địa chỉ email: 
+                            </label>
+                            <input type="text" name="newpass" id="newpass">
+                        </li>
+                        <li class="btns">
+                            <input type="submit" name="confirm" id="confirm" value="Xác nhận">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="row-top">
+                <div class="content">
+                    <div class="head">
+                        <h2 class="title">Đăng kí nhận tin khuyến mãi</h2>
+                        <div class="input-group">
+                            <input type="email" placeholder="Nhập email của bạn" class="control" required>
+                              <div class="input"><button class="btn-sign-up">Đăng ký</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="row-middle">
+                    <div class="col">
+                        <img src="./assets/img/logo.png" alt="" class="logo">
+                        <div class="info">
+                            <div class="wrap-info">
+                                <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <p class="desc">30 Phạm Văn Đồng Cầu Giấy, Hà Nội</p>
+                            </div>
+                            <div class="wrap-info">
+                                <div class="icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                                <p class="desc"> 1900.2812</p>
+                            </div>
+                            <div class="wrap-info">
+                                <div class="icon"><i class="fa-regular fa-envelope"></i></div>
+                                <p class="desc">abctheme205@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h2 class="title">CẨM NANG SỬ DỤNG</h2>
+                        <ul class="list">
+                            <li><a href="#!" class="link">Trang chủ</a></li>
+                            <li><a href="#!" class="link">Giới thiệu</a></li>
+                            <li><a href="#!" class="link">Sản phẩm</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h2 class="title">CHÍNH SÁCH</h2>
+                        <ul class="list">
+                            <li><a href="#!" class="link">Trang chủ</a></li>
+                            <li><a href="#!" class="link">Giới thiệu</a></li>
+                            <li><a href="#!" class="link">Sản phẩm</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h2 class="title">DỊCH VỤ</h2>
+                        <ul class="list">
+                            <li><a href="#!" class="link">Trang chủ</a></li>
+                            <li><a href="#!" class="link">Giới thiệu</a></li>
+                            <li><a href="#!" class="link">Sản phẩm</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row-bottom">
+                <div class="text-center">
+                    <span>Thiết kế web bởi </span>
+                    <img src="assets/img/favicon.png" alt="" class="favicon">
+                   <a href="#!" class="link">Nhanh.vn</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
